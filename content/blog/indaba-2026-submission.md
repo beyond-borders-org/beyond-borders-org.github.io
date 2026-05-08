@@ -28,4 +28,4 @@ We also evaluated graph neural networks on a dual-edge graph connecting district
 
 We will present this work at DLI Lagos in August 2026. In the meantime, we are working on an interactive demo and exploring extensions to Sentinel-2 resolution and intra-season prediction.
 
-All code and data are open source on [GitHub](https://github.com/beyond-borders-project).
+All code and data are open source on [GitHub](https://github.com/beyond-borders-org).

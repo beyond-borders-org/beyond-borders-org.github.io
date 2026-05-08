@@ -12,7 +12,7 @@ highlights:
   - "246 features from 6 data sources"
   - "Strictly temporal train/test split"
   - "Full Google Earth Engine extraction pipeline"
-github: "https://github.com/beyond-borders-project/african-crop-yield"
+github: "https://github.com/beyond-borders-org/african-crop-yield"
 demo: ""
 paper: ""
 ---

@@ -13,7 +13,7 @@ const cols = [
     title: "Community",
     links: [
       { label: "Blog", href: "/blog" },
-      { label: "GitHub", href: "https://github.com/beyond-borders-project", external: true },
+      { label: "GitHub", href: "https://github.com/beyond-borders-org", external: true },
     ],
   },
   {
