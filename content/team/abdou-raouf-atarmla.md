@@ -3,26 +3,31 @@ name: "Abdou-Raouf Atarmla"
 slug: "abdou-raouf-atarmla"
 role: "Founder & Lead Researcher"
 initials: "AR"
-affiliation: "INPT Rabat"
-short: "Engineering @ INPT Rabat. Remote sensing, geospatial AI, applied math."
+affiliation: "INPT Rabat · Togo DataLab"
+short: "ML researcher building open infrastructure for African AI — conformal prediction, safety-critical systems, applied math."
 links:
-  github: "https://github.com/ratarmla"
-  email: "contact@beyond-borders.africa"
+  github: "https://github.com/fless-lab"
+  email: "achilleatarmla@gmail.com"
 ---
 
-Engineering student at INPT Rabat, specializing in embedded systems and applied mathematics (state estimation, signal processing). Also involved with Togo DataLab.
+Final-year engineering student at INPT Rabat (Embedded Systems track), with a research focus on reliable machine learning for safety-critical systems. Founder of **Beyond Borders**, an open research initiative producing benchmarks, papers, and protocol specifications at the intersection of ML and African challenges. Also embedded at **Togo DataLab**, a government AI initiative in Lomé supported by UC Berkeley's CEGA, Google.org, and GIZ.
+
+My engineering background — state estimation, signal processing, embedded deployment on constrained hardware — directly informs my research: I care about models that fail gracefully, not just models that score well.
 
 ## Research Interests
 
-- Remote sensing and satellite imagery for development
-- Geospatial AI and machine learning for agriculture
-- Applied mathematics: state estimation, optimization
-- Embedded systems and edge deployment
+- Conformal prediction and uncertainty quantification for dynamical systems
+- Multimodal ML and AI for African challenges
+- Physics-informed neural networks for state estimation (PINN-based observers)
+- Safety and reliability in cyber-physical systems
+- Edge deployment and embedded inference
 
-## Projects
+## Latest Projects
 
-- **Pan-African Crop Yield Prediction** — Lead researcher. Built a 246-feature benchmark across 33 countries and 42 years. Presented at Deep Learning Indaba 2026 (IJCAI).
+- **JALI** — Exploring joint-embedding predictive architectures (Audio-JEPA) for tonal African languages, with a companion benchmark for tone error rate evaluation (ToneBench).
+- **Weft** — Open data mesh protocol for signed, offline-first record propagation using post-quantum cryptography (ML-DSA-65, ML-KEM-768).
 
 ## Education
 
 - Engineering @ INPT Rabat — Embedded Systems
+- Applied Mathematics @ MIT OpenCourseWare
