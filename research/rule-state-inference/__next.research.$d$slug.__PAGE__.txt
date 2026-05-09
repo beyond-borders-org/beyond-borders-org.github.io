@@ -1,0 +1,58 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],""]
+5:I[97367,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+3:Ta98,<p>Rule-State Inference (RSI) inverts the standard machine learning approach to compliance monitoring. Where traditional ML learns rules from labeled data, RSI treats authoritative rules as known priors and infers the latent compliance state of entities from partial, noisy observations.</p>
+<h2>The Problem</h2>
+<p>Compliance monitoring in rule-governed domains (taxation, healthcare, finance) faces a fundamental tension: rules are known and authoritative, but compliance is unobserved. Standard ML approaches require labeled data (which entity is compliant?) that is expensive or impossible to obtain at scale. They also break when regulations change, requiring full retraining.</p>
+<h2>Approach</h2>
+<p>RSI formalizes compliance monitoring as Bayesian posterior inference over a structured latent space <strong>S = {(a_i, c_i, delta_i)}</strong> where:</p>
+<ul>
+<li><strong>a_i</strong>: rule activation (is this rule applicable?)</li>
+<li><strong>c_i</strong>: compliance rate (what fraction comply?)</li>
+<li><strong>delta_i</strong>: parametric drift (has the rule changed?)</li>
+</ul>
+<p>The framework operates at two levels:</p>
+<ol>
+<li><strong>Population-level</strong>: calibrated uncertainty estimates with Bernstein-von Mises consistency guarantees</li>
+<li><strong>Entity-level</strong>: deterministic scoring for flagging non-compliant entities without labeled data</li>
+</ol>
+<h2>Key Properties</h2>
+<ul>
+<li><strong>O(1) adaptation</strong>: Regulatory changes are absorbed via prior ratio correction, not retraining. Sub-millisecond update vs. 683-1082ms for retrained baselines (500,000x speedup).</li>
+<li><strong>Missing data robustness</strong>: At 50% missing observations, RSI maintains +0.25-0.37 F1 advantage over baselines.</li>
+<li><strong>Theoretical guarantees</strong>: Posterior consistency (T2) and monotonic ELBO convergence (T3).</li>
+</ul>
+<h2>Results</h2>
+<p>Evaluated on RSI-Togo-Fiscal-Synthetic v2.0: 2,000 synthetic enterprises, 8 fiscal rules grounded in real OTR (Office Togolais des Recettes) regulatory rules 2022-2025.</p>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>RSI</th>
+<th>Rule-based baseline</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mean F1</td>
+<td>0.741</td>
+<td>0.700</td>
+</tr>
+<tr>
+<td>Mean AUC</td>
+<td>0.859</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>Reg. change time</td>
+<td>&#x3C; 1ms</td>
+<td>683-1082ms</td>
+</tr>
+</tbody>
+</table>
+<h2>Why It Matters</h2>
+<p>RSI is domain-agnostic. Any domain with authoritative rules and partial observations is a candidate: tax compliance, medical protocol adherence, anti-money laundering, environmental regulation. The framework is lightweight (numpy/scipy) and suitable for deployment in resource-constrained settings.</p>
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mx-auto max-w-[740px] px-6 py-14 sm:py-20","children":[["$","nav",null,{"className":"mb-8 text-[13px] text-text-caption","children":[["$","$L2",null,{"href":"/research","className":"hover:text-text transition-colors","children":"Research"}],["$","span",null,{"className":"mx-2","children":"/"}]]}],["$","span",null,{"className":"font-mono text-[10px] font-bold uppercase tracking-[0.15em] text-text-caption","children":["Bayesian AI"," · ","arXiv 2026"]}],["$","h1",null,{"className":"mt-2 font-serif text-[32px] leading-[1.15] tracking-tight text-text sm:text-[40px]","children":"Rule-State Inference: A Bayesian Framework for Compliance Monitoring"}],["$","p",null,{"className":"mt-3 text-[15px] text-text-secondary","children":"Abdou-Raouf Atarmla"}],["$","div",null,{"className":"mt-5 flex gap-5","children":["",["$","a",null,{"href":"https://github.com/fless-lab/rsi-framework","target":"_blank","rel":"noopener noreferrer","className":"text-[14px] text-text-secondary underline underline-offset-3 decoration-border hover:text-text hover:decoration-text","children":"GitHub &nearr;"}],["$","a",null,{"href":"https://arxiv.org/abs/2603.21610","target":"_blank","rel":"noopener noreferrer","className":"text-[14px] text-text-secondary underline underline-offset-3 decoration-border hover:text-text hover:decoration-text","children":"Paper &nearr;"}]]}],["$","hr",null,{"className":"my-8 border-border"}],["$","article",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"EddjVXfw3w9yBYINOk56K"}
+4:["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]
+7:null

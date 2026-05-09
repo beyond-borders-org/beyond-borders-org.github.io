@@ -1,0 +1,66 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],""]
+4:I[97367,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T875,<p>One of the most time-consuming parts of our crop yield project was building the feature extraction pipeline. We needed to extract consistent, quality-controlled features from five different satellite and climate data sources across 1,109 districts and up to 42 years.</p>
+<h2>The challenge</h2>
+<p>Each data source has different spatial resolution, temporal coverage, and quality issues:</p>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Resolution</th>
+<th>Temporal</th>
+<th>Key challenge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CHIRPS</td>
+<td>5.5 km</td>
+<td>1981-now</td>
+<td>Daily → annual aggregation</td>
+</tr>
+<tr>
+<td>ERA5-Land</td>
+<td>11 km</td>
+<td>1981-now</td>
+<td>Unit conversions (K→C, m→mm)</td>
+</tr>
+<tr>
+<td>MODIS vegetation</td>
+<td>250 m</td>
+<td>2000-now</td>
+<td>Cloud masking, cropland filtering</td>
+</tr>
+<tr>
+<td>MODIS burned area</td>
+<td>500 m</td>
+<td>2000-now</td>
+<td>Sparse events</td>
+</tr>
+<tr>
+<td>Static (SRTM/Soils)</td>
+<td>30-250 m</td>
+<td>Fixed</td>
+<td>One-time extraction</td>
+</tr>
+</tbody>
+</table>
+<h2>Our approach</h2>
+<p>We wrote five Google Earth Engine scripts, each handling one data source. Key design decisions:</p>
+<ol>
+<li><strong>Block exports</strong>:we split long time series into 4-5 year blocks to stay within GEE memory limits</li>
+<li><strong>Quality masking</strong>:MODIS vegetation uses SummaryQA flags and IGBP cropland mask</li>
+<li><strong>Consistent reducers</strong>:mean, stdDev, and percentiles (p10, p25, p75, p90) for all continuous variables</li>
+<li><strong>Sentinel values</strong>:-9999 for missing data, filtered in Python downstream</li>
+</ol>
+<h2>Lessons learned</h2>
+<ul>
+<li>GEE's <code>reduceRegions</code> is the bottleneck. We had to reduce to 500m scale even for 250m MODIS data</li>
+<li>ERA5-Land band names conflict with reducer suffixes (e.g., <code>temperature_mean_mean</code>). We renamed bands to short codes (t1-t19) before reducing</li>
+<li>CHIRPS percentile extraction required a separate script due to memory constraints</li>
+</ul>
+<p>All scripts are available in our <a href="https://github.com/ratarmla/beyond-borders/tree/main/scripts/gee">repository</a>.</p>
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mx-auto max-w-[740px] px-6 py-14 sm:py-20","children":[["$","nav",null,{"className":"mb-8 text-[13px] text-text-caption","children":[["$","$L2",null,{"href":"/blog","className":"hover:text-text transition-colors","children":"Blog"}],["$","span",null,{"className":"mx-2","children":"/"}]]}],["$","header",null,{"children":[["$","div",null,{"className":"flex items-center gap-2 text-[13px] text-text-caption","children":[["$","time",null,{"children":"2026-03-15"}],["$","span",null,{"children":"·"}],["$","span",null,{"children":"2 min read"}]]}],["$","h1",null,{"className":"mt-3 font-serif text-[32px] leading-[1.15] tracking-tight text-text sm:text-[42px]","children":"Building a Continental-Scale GEE Pipeline"}],["$","div",null,{"className":"mt-3 flex gap-2","children":[["$","span","Technical",{"className":"rounded-full bg-tag-bg px-2.5 py-0.5 text-[12px] text-text-secondary","children":"Technical"}],["$","span","GEE",{"className":"rounded-full bg-tag-bg px-2.5 py-0.5 text-[12px] text-text-secondary","children":"GEE"}],["$","span","Remote Sensing",{"className":"rounded-full bg-tag-bg px-2.5 py-0.5 text-[12px] text-text-secondary","children":"Remote Sensing"}]]}]]}],["$","hr",null,{"className":"my-8 border-border"}],["$","article",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"EddjVXfw3w9yBYINOk56K"}
+6:null

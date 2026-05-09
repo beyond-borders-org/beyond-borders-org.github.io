@@ -1,0 +1,23 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],""]
+4:I[97367,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T70a,<p>We are excited to announce the submission of our first paper, <em>Beyond Borders: How Far Can We Predict African Crop Yields?</em>, to the Deep Learning Indaba 2026 (IJCAI Special Volume), AI for Social Impact track.</p>
+<h2>What we built</h2>
+<p>A multimodal benchmark for pan-African crop yield prediction covering 1,109 districts across 33 countries and 42 years of data (1981-2022). We combined 246 features from six different data sources:</p>
+<ul>
+<li><strong>CHIRPS v2.0</strong>:precipitation statistics</li>
+<li><strong>ERA5-Land</strong>:27 climate variables (temperature, radiation, soil moisture, wind)</li>
+<li><strong>MODIS MOD13Q1</strong>:vegetation indices (NDVI, EVI, LSWI) with quality and cropland masking</li>
+<li><strong>MODIS MCD64A1</strong>:burned area fraction</li>
+<li><strong>Static features</strong>:topography (SRTM), soils (SoilGrids), land cover (ESA)</li>
+<li><strong>Historical yields</strong>:lag values, rolling means, trends from HarvestStat Africa</li>
+</ul>
+<h2>Key result</h2>
+<p>Our best model (XGBoost with Optuna hyperparameter tuning) achieves <strong>R² = 0.809</strong> and <strong>RMSE = 0.553 t/ha</strong> on the held-out test set (2019-2022), using a strictly temporal train/test split.</p>
+<p>We also evaluated graph neural networks on a dual-edge graph connecting districts by geographic proximity and climate similarity, but found that an optimized XGBoost leaves no spatially structured residuals for a GNN to exploit.</p>
+<h2>What's next</h2>
+<p>We will present this work at DLI Lagos in August 2026. In the meantime, we are working on an interactive demo and exploring extensions to Sentinel-2 resolution and intra-season prediction.</p>
+<p>All code and data are open source on <a href="https://github.com/beyond-borders-org">GitHub</a>.</p>
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mx-auto max-w-[740px] px-6 py-14 sm:py-20","children":[["$","nav",null,{"className":"mb-8 text-[13px] text-text-caption","children":[["$","$L2",null,{"href":"/blog","className":"hover:text-text transition-colors","children":"Blog"}],["$","span",null,{"className":"mx-2","children":"/"}]]}],["$","header",null,{"children":[["$","div",null,{"className":"flex items-center gap-2 text-[13px] text-text-caption","children":[["$","time",null,{"children":"2026-04-20"}],["$","span",null,{"children":"·"}],["$","span",null,{"children":"2 min read"}]]}],["$","h1",null,{"className":"mt-3 font-serif text-[32px] leading-[1.15] tracking-tight text-text sm:text-[42px]","children":"Our Deep Learning Indaba 2026 Submission"}],["$","div",null,{"className":"mt-3 flex gap-2","children":[["$","span","Paper",{"className":"rounded-full bg-tag-bg px-2.5 py-0.5 text-[12px] text-text-secondary","children":"Paper"}],["$","span","Crop Yield",{"className":"rounded-full bg-tag-bg px-2.5 py-0.5 text-[12px] text-text-secondary","children":"Crop Yield"}],["$","span","Indaba",{"className":"rounded-full bg-tag-bg px-2.5 py-0.5 text-[12px] text-text-secondary","children":"Indaba"}]]}]]}],["$","hr",null,{"className":"my-8 border-border"}],["$","article",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"EddjVXfw3w9yBYINOk56K"}
+6:null

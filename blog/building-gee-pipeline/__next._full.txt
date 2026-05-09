@@ -1,0 +1,91 @@
+1:"$Sreact.fragment"
+2:I[45678,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+3:I[39756,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+4:I[37457,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+10:I[68027,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/_next/static/chunks/131.3.ig7ztoi.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+5:T975,M33.5 2c1.2.3 2.1 1 3.2 1.5 1.5.7 3 1.2 4.2 2.3.8.7 1.8 1 2.8 1.2 1 .2 1.6.9 2.2 1.6.5.6.4 1.3.5 2 .1.8.5 1.4 1 2 .7.8 1 1.7.8 2.7-.1.7.2 1.3.5 1.9.5 1 .6 2 .3 3-.2.7-.1 1.4.1 2.1.3 1 .2 2-.2 2.9-.3.6-.3 1.2-.1 1.8.2.8.1 1.6-.2 2.4-.4 1-.3 2-.8 2.8-.6 1-1.2 2-1.5 3.1-.2.7-.6 1.3-1.1 1.8-.6.6-.8 1.4-1 2.2-.2.8-.5 1.5-1 2.1-.6.7-.9 1.5-1.1 2.4-.1.6-.4 1.1-.8 1.5-.5.5-.7 1.1-.8 1.8-.1.8-.5 1.4-1 2-.4.4-.6.9-.7 1.5-.1.8-.5 1.4-1.1 1.9-.5.4-.8 1-1 1.6-.3.8-.8 1.5-1.5 2-.5.4-.8 1-.9 1.6-.1.5-.4.9-.8 1.2-.7.5-1.1 1.2-1.2 2-.1.5-.4.9-.7 1.2-.6.5-.8 1.2-.7 2 0 .3-.1.6-.3.8-.5.6-.6 1.3-.4 2 0 .2-.1.4-.2.5-.5.4-.5.9-.4 1.4 0 .2 0 .4-.2.5-.4.3-.5.7-.3 1.2-1 .2-1.8-.2-2.6-.7-.6-.4-1.3-.5-2-.5-.5 0-1-.2-1.4-.5-.6-.4-1.2-.6-1.9-.4-.3.1-.6 0-.8-.2-.5-.4-1.1-.5-1.7-.3-.4.1-.7 0-1-.2-.5-.3-1-.4-1.5-.2-.3.1-.5 0-.7-.2-.3-.3-.7-.4-1.1-.3h-.6c-.5-.1-.8-.4-1-.8-.2-.5-.6-.8-1.1-.9-.7-.1-1.1-.6-1.4-1.1-.2-.4-.5-.7-.9-.8-.6-.2-.9-.6-1-1.2-.1-.4-.3-.7-.6-.9-.5-.3-.7-.8-.7-1.3 0-.6-.2-1-.6-1.4-.3-.3-.4-.7-.3-1.1.1-.5 0-.9-.3-1.3-.2-.3-.3-.7-.2-1.1.1-.6 0-1.1-.3-1.6-.2-.3-.2-.7-.1-1 .2-.6.1-1.2-.2-1.7-.2-.3-.2-.7-.1-1 .2-.7.1-1.3-.3-1.9-.1-.2-.1-.5 0-.7.2-.7.1-1.3-.2-1.9-.1-.2-.1-.4 0-.6.2-.5.2-1 0-1.5-.2-.6-.2-1.2.1-1.8.1-.2.1-.5 0-.7-.3-.6-.3-1.2 0-1.8.1-.2.1-.4 0-.6-.2-.6-.1-1.1.2-1.6.1-.2.2-.5.1-.7-.1-.5 0-1 .2-1.4.3-.5.3-1.1.1-1.6-.1-.3 0-.6.1-.8.3-.6.3-1.3.1-1.9-.2-.5-.1-1 .2-1.5.2-.3.2-.6.1-.9-.2-.6 0-1.2.4-1.6.2-.2.3-.5.3-.8 0-.5.3-.9.6-1.2.4-.3.6-.7.6-1.2 0-.3.1-.5.3-.7.4-.5.6-1 .5-1.6 0-.4.2-.7.5-.9.4-.3.6-.7.6-1.2 0-.3.1-.6.3-.9.3-.4.4-.8.3-1.3 0-.3.1-.6.3-.8.3-.4.5-.8.5-1.3s.3-.9.6-1.2c.3-.3.4-.6.4-1 0-.5.2-1 .5-1.4.2-.3.3-.5.3-.8 0-.7.3-1.2.8-1.6.3-.2.4-.5.5-.8.1-.5.4-.9.8-1.2.3-.2.5-.5.5-.9.1-.5.4-.9.8-1.1.4-.2.6-.5.6-.9.1-.6.4-1 .9-1.3.2-.1.4-.3.4-.6.2-.6.5-1.1 1-1.4.2-.1.3-.3.3-.5.1-.4.3-.7.7-.9.6-.3.8-.9.8-1.5h.6c.4.5.3 1.1.3 1.7 0 .3-.2.6-.4.8-.3.3-.3.6-.1 1 .1.2.1.4 0 .6-.3.5-.3 1 0 1.4.1.2.1.4 0 .6-.3.4-.3.9 0 1.3l.1.2c-.1.4-.4.6-.7.7-.5.2-.8.5-.8 1-.7.1-1 .5-1 1.1 0 .2-.1.4-.2.6-.3.4-.4.8-.2 1.3-1 .4-1 1.2-.6 2-.7.4-.7 1-.3 1.6-.4.2-.6.5-.5.9.1.3 0 .5-.2.7-.3.3-.4.7-.3 1.1 0 .3-.1.5-.3.7-.3.3-.5.6-.4 1 0 .3-.1.5-.3.7-.3.2-.4.5-.4.8.1.5-.1.9-.5 1.2-.2.2-.3.4-.3.7 0 .5-.2.9-.5 1.2-.7-.4-.7-.4-1.1.2-.2.4-.1.8.2 1.1.3.4.3.5-.1.8-.5.3-.5.8-.2 1.2.3.4.3.5-.1.8-.3.2-.3.6-.1.9.2.3.2.7-.1.9-.3.2-.4.5-.2.8.1.3.1.5-.1.7-.3.3-.3.7 0 1 .1.2.1.4 0 .6-.3.3-.3.7 0 1 .1.2.1.3 0 .5-.3.4-.2.9.1 1.2l.3.3Z0:{"P":null,"c":["","blog","building-gee-pipeline",""],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","building-gee-pipeline","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/131.3.ig7ztoi.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/004934-w2uc3~.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable","children":["$","body",null,{"className":"flex min-h-screen flex-col bg-background text-foreground antialiased","children":[["$","$L2",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-auto border-t border-border bg-surface","children":["$","div",null,{"className":"mx-auto max-w-[1100px] px-6 pt-12 pb-8","children":[["$","div",null,{"className":"grid gap-8 sm:grid-cols-[2fr_1fr_1fr_1fr]","children":[["$","div",null,{"children":[["$","span",null,{"className":"flex items-center gap-2 font-serif text-[18px] text-text","children":[["$","svg",null,{"width":18,"height":18,"viewBox":"0 0 64 64","fill":"currentColor","xmlns":"http://www.w3.org/2000/svg","className":"text-text","children":["$","path",null,{"d":"$5"}]}],"Beyond Borders"]}],"$L6"]}],["$L7","$L8","$L9"]]}],"$La"]}]}]]}]}]]}],{"children":["$Lb",{"children":["$Lc",{"children":["$Ld",{},null,false,null]},null,false,"$@e"]},null,false,"$@e"]},null,false,null],"$Lf",false]],"m":"$undefined","G":["$10",["$L11"]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"EddjVXfw3w9yBYINOk56K"}
+12:I[22016,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],""]
+14:I[97367,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+15:"$Sreact.suspense"
+18:I[97367,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+1a:I[97367,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+6:["$","p",null,{"className":"mt-3 max-w-[280px] text-[14px] leading-relaxed text-text-secondary","children":"Open research applying data science and machine learning to challenges across the African continent."}]
+7:["$","div","Research",{"children":[["$","h4",null,{"className":"font-mono text-[10px] font-bold uppercase tracking-[0.15em] text-text-caption","children":"Research"}],["$","ul",null,{"className":"mt-3 space-y-2","children":[["$","li","All Projects",{"children":["$","$L12",null,{"href":"/research","className":"text-[14px] text-text-secondary hover:text-text transition-colors","children":"All Projects"}]}],["$","li","Datasets",{"children":["$","$L12",null,{"href":"/datasets","className":"text-[14px] text-text-secondary hover:text-text transition-colors","children":"Datasets"}]}]]}]]}]
+8:["$","div","Community",{"children":[["$","h4",null,{"className":"font-mono text-[10px] font-bold uppercase tracking-[0.15em] text-text-caption","children":"Community"}],["$","ul",null,{"className":"mt-3 space-y-2","children":[["$","li","Blog",{"children":["$","$L12",null,{"href":"/blog","className":"text-[14px] text-text-secondary hover:text-text transition-colors","children":"Blog"}]}],["$","li","GitHub",{"children":["$","a",null,{"href":"https://github.com/beyond-borders-org","target":"_blank","rel":"noopener noreferrer","className":"text-[14px] text-text-secondary hover:text-text transition-colors","children":"GitHub"}]}]]}]]}]
+9:["$","div","About",{"children":[["$","h4",null,{"className":"font-mono text-[10px] font-bold uppercase tracking-[0.15em] text-text-caption","children":"About"}],["$","ul",null,{"className":"mt-3 space-y-2","children":[["$","li","Team",{"children":["$","$L12",null,{"href":"/about","className":"text-[14px] text-text-secondary hover:text-text transition-colors","children":"Team"}]}],["$","li","Contact",{"children":["$","$L12",null,{"href":"mailto:contact@beyond-borders.africa","className":"text-[14px] text-text-secondary hover:text-text transition-colors","children":"Contact"}]}]]}]]}]
+a:["$","div",null,{"className":"mt-10 border-t border-border pt-6","children":["$","p",null,{"className":"font-mono text-[9px] uppercase tracking-[0.1em] text-text-caption","children":["© ",2026," Beyond Borders. Open source under MIT."]}]}]
+b:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+c:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+d:["$","$1","c",{"children":["$L13",null,["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]]}]
+17:[]
+e:"$W17"
+f:["$","$1","h",{"children":[null,["$","$L18",null,{"children":"$L19"}],["$","div",null,{"hidden":true,"children":["$","$L1a",null,{"children":["$","$15",null,{"name":"Next.Metadata","children":"$L1b"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+11:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/131.3.ig7ztoi.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+1c:T875,<p>One of the most time-consuming parts of our crop yield project was building the feature extraction pipeline. We needed to extract consistent, quality-controlled features from five different satellite and climate data sources across 1,109 districts and up to 42 years.</p>
+<h2>The challenge</h2>
+<p>Each data source has different spatial resolution, temporal coverage, and quality issues:</p>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Resolution</th>
+<th>Temporal</th>
+<th>Key challenge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CHIRPS</td>
+<td>5.5 km</td>
+<td>1981-now</td>
+<td>Daily → annual aggregation</td>
+</tr>
+<tr>
+<td>ERA5-Land</td>
+<td>11 km</td>
+<td>1981-now</td>
+<td>Unit conversions (K→C, m→mm)</td>
+</tr>
+<tr>
+<td>MODIS vegetation</td>
+<td>250 m</td>
+<td>2000-now</td>
+<td>Cloud masking, cropland filtering</td>
+</tr>
+<tr>
+<td>MODIS burned area</td>
+<td>500 m</td>
+<td>2000-now</td>
+<td>Sparse events</td>
+</tr>
+<tr>
+<td>Static (SRTM/Soils)</td>
+<td>30-250 m</td>
+<td>Fixed</td>
+<td>One-time extraction</td>
+</tr>
+</tbody>
+</table>
+<h2>Our approach</h2>
+<p>We wrote five Google Earth Engine scripts, each handling one data source. Key design decisions:</p>
+<ol>
+<li><strong>Block exports</strong>:we split long time series into 4-5 year blocks to stay within GEE memory limits</li>
+<li><strong>Quality masking</strong>:MODIS vegetation uses SummaryQA flags and IGBP cropland mask</li>
+<li><strong>Consistent reducers</strong>:mean, stdDev, and percentiles (p10, p25, p75, p90) for all continuous variables</li>
+<li><strong>Sentinel values</strong>:-9999 for missing data, filtered in Python downstream</li>
+</ol>
+<h2>Lessons learned</h2>
+<ul>
+<li>GEE's <code>reduceRegions</code> is the bottleneck. We had to reduce to 500m scale even for 250m MODIS data</li>
+<li>ERA5-Land band names conflict with reducer suffixes (e.g., <code>temperature_mean_mean</code>). We renamed bands to short codes (t1-t19) before reducing</li>
+<li>CHIRPS percentile extraction required a separate script due to memory constraints</li>
+</ul>
+<p>All scripts are available in our <a href="https://github.com/ratarmla/beyond-borders/tree/main/scripts/gee">repository</a>.</p>
+13:["$","div",null,{"className":"mx-auto max-w-[740px] px-6 py-14 sm:py-20","children":[["$","nav",null,{"className":"mb-8 text-[13px] text-text-caption","children":[["$","$L12",null,{"href":"/blog","className":"hover:text-text transition-colors","children":"Blog"}],["$","span",null,{"className":"mx-2","children":"/"}]]}],["$","header",null,{"children":[["$","div",null,{"className":"flex items-center gap-2 text-[13px] text-text-caption","children":[["$","time",null,{"children":"2026-03-15"}],["$","span",null,{"children":"·"}],["$","span",null,{"children":"2 min read"}]]}],["$","h1",null,{"className":"mt-3 font-serif text-[32px] leading-[1.15] tracking-tight text-text sm:text-[42px]","children":"Building a Continental-Scale GEE Pipeline"}],["$","div",null,{"className":"mt-3 flex gap-2","children":[["$","span","Technical",{"className":"rounded-full bg-tag-bg px-2.5 py-0.5 text-[12px] text-text-secondary","children":"Technical"}],["$","span","GEE",{"className":"rounded-full bg-tag-bg px-2.5 py-0.5 text-[12px] text-text-secondary","children":"GEE"}],["$","span","Remote Sensing",{"className":"rounded-full bg-tag-bg px-2.5 py-0.5 text-[12px] text-text-secondary","children":"Remote Sensing"}]]}]]}],["$","hr",null,{"className":"my-8 border-border"}],["$","article",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$1c"}}]]}]
+19:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1d:I[27201,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+16:null
+1b:[["$","title","0",{"children":"Building a Continental-Scale GEE Pipeline — Beyond Borders"}],["$","meta","1",{"name":"description","content":"How we extracted 246 features from 5 satellite sources across 1,109 African districts using Google Earth Engine."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L1d","3",{}]]
