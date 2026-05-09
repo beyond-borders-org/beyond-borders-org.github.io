@@ -1,6 +1,26 @@
 1:"$Sreact.fragment"
 2:I[22016,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],""]
-3:I[97367,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mx-auto max-w-[740px] px-6 py-14 sm:py-20","children":[["$","nav",null,{"className":"mb-8 text-[13px] text-text-caption","children":[["$","$L2",null,{"href":"/about","className":"hover:text-text transition-colors","children":"About"}],["$","span",null,{"className":"mx-2","children":"/"}]]}],["$","div",null,{"className":"flex items-center gap-4","children":[["$","div",null,{"className":"flex h-14 w-14 items-center justify-center rounded-full bg-surface font-serif text-[20px] text-text-secondary","children":"AR"}],["$","div",null,{"children":[["$","h1",null,{"className":"font-serif text-[28px] tracking-tight text-text","children":"Abdou-Raouf Atarmla"}],["$","p",null,{"className":"text-[14px] text-text-secondary","children":["Founder & Lead Researcher"," · ","INPT Rabat"]}]]}]]}],["$","div",null,{"className":"mt-5 flex gap-4 text-[14px] text-text-secondary","children":[["$","a",null,{"href":"https://github.com/ratarmla","target":"_blank","rel":"noopener noreferrer","className":"hover:text-text transition-colors","children":"GitHub"}],["$","a",null,{"href":"mailto:contact@beyond-borders.africa","className":"hover:text-text transition-colors","children":"Email"}],"$undefined","$undefined"]}],["$","hr",null,{"className":"my-8 border-border"}],["$","article",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"<p>Engineering student at INPT Rabat, specializing in embedded systems and applied mathematics (state estimation, signal processing). Also involved with Togo DataLab.</p>\n<h2>Research Interests</h2>\n<ul>\n<li>Remote sensing and satellite imagery for development</li>\n<li>Geospatial AI and machine learning for agriculture</li>\n<li>Applied mathematics: state estimation, optimization</li>\n<li>Embedded systems and edge deployment</li>\n</ul>\n<h2>Projects</h2>\n<ul>\n<li><strong>Pan-African Crop Yield Prediction</strong> — Lead researcher. Built a 246-feature benchmark across 33 countries and 42 years. Presented at Deep Learning Indaba 2026 (IJCAI).</li>\n</ul>\n<h2>Education</h2>\n<ul>\n<li>Engineering @ INPT Rabat — Embedded Systems</li>\n</ul>\n"}}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"-DOJn-TpkVUV5WFy6QfoE"}
-5:null
+4:I[97367,["/_next/static/chunks/004934-w2uc3~.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T641,<p>Final-year engineering student at INPT Rabat (Embedded Systems track), with a research focus on reliable machine learning for safety-critical systems. Founder of <strong>Beyond Borders</strong>, an open research initiative producing benchmarks, papers, and protocol specifications at the intersection of ML and African challenges. Also embedded at <strong>Togo DataLab</strong>, a government AI initiative in Lomé supported by UC Berkeley's CEGA, Google.org, and GIZ.</p>
+<p>My engineering background — state estimation, signal processing, embedded deployment on constrained hardware — directly informs my research: I care about models that fail gracefully, not just models that score well.</p>
+<h2>Research Interests</h2>
+<ul>
+<li>Conformal prediction and uncertainty quantification for dynamical systems</li>
+<li>Multimodal ML and AI for African challenges</li>
+<li>Physics-informed neural networks for state estimation (PINN-based observers)</li>
+<li>Safety and reliability in cyber-physical systems</li>
+<li>Edge deployment and embedded inference</li>
+</ul>
+<h2>Latest Projects</h2>
+<ul>
+<li><strong>JALI</strong> — Exploring joint-embedding predictive architectures (Audio-JEPA) for tonal African languages, with a companion benchmark for tone error rate evaluation (ToneBench).</li>
+<li><strong>Weft</strong> — Open data mesh protocol for signed, offline-first record propagation using post-quantum cryptography (ML-DSA-65, ML-KEM-768).</li>
+</ul>
+<h2>Education</h2>
+<ul>
+<li>Engineering @ INPT Rabat — Embedded Systems</li>
+<li>Applied Mathematics @ MIT OpenCourseWare</li>
+</ul>
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mx-auto max-w-[740px] px-6 py-14 sm:py-20","children":[["$","nav",null,{"className":"mb-8 text-[13px] text-text-caption","children":[["$","$L2",null,{"href":"/about","className":"hover:text-text transition-colors","children":"About"}],["$","span",null,{"className":"mx-2","children":"/"}]]}],["$","div",null,{"className":"flex items-center gap-4","children":[["$","div",null,{"className":"flex h-14 w-14 items-center justify-center rounded-full bg-surface font-serif text-[20px] text-text-secondary","children":"AR"}],["$","div",null,{"children":[["$","h1",null,{"className":"font-serif text-[28px] tracking-tight text-text","children":"Abdou-Raouf Atarmla"}],["$","p",null,{"className":"text-[14px] text-text-secondary","children":["Founder & Lead Researcher"," · ","INPT Rabat · Togo DataLab"]}]]}]]}],["$","div",null,{"className":"mt-5 flex gap-4 text-[14px] text-text-secondary","children":[["$","a",null,{"href":"https://github.com/fless-lab","target":"_blank","rel":"noopener noreferrer","className":"hover:text-text transition-colors","children":"GitHub"}],["$","a",null,{"href":"mailto:achilleatarmla@gmail.com","className":"hover:text-text transition-colors","children":"Email"}],"$undefined","$undefined"]}],["$","hr",null,{"className":"my-8 border-border"}],["$","article",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"zrbmgcV6upAfPKLJNa7F8"}
+6:null
