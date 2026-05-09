@@ -5,7 +5,7 @@ import { getAllPosts } from "@/lib/blog";
 const stats = [
   { value: "100%", label: "Open Source" },
   { value: "Africa", label: "Focus" },
-  { value: "3", label: "Projects" },
+  { value: "5", label: "Projects" },
   { value: "2025", label: "Founded" },
 ];
 
