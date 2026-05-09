@@ -14,6 +14,7 @@ export interface ResearchProject {
   date: string;
   excerpt: string;
   highlights: string[];
+  image?: string;
   github?: string;
   demo?: string;
   paper?: string;
@@ -39,6 +40,7 @@ export function getAllProjects(): ResearchProject[] {
       date: data.date || "",
       excerpt: data.excerpt || "",
       highlights: data.highlights || [],
+      image: data.image,
       github: data.github,
       demo: data.demo,
       paper: data.paper,

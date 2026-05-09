@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllProjects, getProjectBySlug } from "@/lib/research";
@@ -17,7 +18,40 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const project = getProjectBySlug(slug);
   if (!project) return {};
-  return { title: project.title, description: project.excerpt };
+
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://beyond-borders-org.github.io';
+  const url = `${baseUrl}/research/${slug}/`;
+  const imageUrl = project.image ? `${baseUrl}${project.image}` : `${baseUrl}/og-default.png`;
+
+  return {
+    title: project.title,
+    description: project.excerpt,
+    authors: [{ name: project.authors }],
+    openGraph: {
+      title: project.title,
+      description: project.excerpt,
+      url,
+      type: 'article',
+      publishedTime: new Date(project.date).toISOString(),
+      authors: [project.authors],
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: project.title,
+        },
+      ],
+      siteName: 'Beyond Borders',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: project.title,
+      description: project.excerpt,
+      images: [imageUrl],
+      creator: '@BeyondBordersOrg',
+    },
+  };
 }
 
 export default async function ResearchProjectPage({ params }: Props) {
@@ -65,6 +99,21 @@ export default async function ResearchProjectPage({ params }: Props) {
       )}
 
       <hr className="my-8 border-border" />
+
+      {project.image && (
+        <figure className="mb-8">
+          <img 
+            src={project.image} 
+            alt={project.title}
+            className="w-full rounded-lg shadow-sm"
+          />
+          {project.highlights && project.highlights[0] && (
+            <figcaption className="mt-3 text-center text-[13px] text-text-secondary italic">
+              {project.title}
+            </figcaption>
+          )}
+        </figure>
+      )}
 
       <article className="prose" dangerouslySetInnerHTML={{ __html: htmlContent }} />
     </div>

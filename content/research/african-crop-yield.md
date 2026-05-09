@@ -7,6 +7,7 @@ venue: "Deep Learning Indaba 2026 (IJCAI)"
 authors: "Abdou-Raouf Atarmla"
 date: "2026-04-20"
 excerpt: "A multimodal benchmark for pan-African crop yield prediction across 1,109 districts, 33 countries, and 42 years."
+image: "/images/research/african-crop-yield-banner.png"
 highlights:
   - "R² = 0.809 on held-out test set (2019-2022)"
   - "246 features from 6 data sources"
