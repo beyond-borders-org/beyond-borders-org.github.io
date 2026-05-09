@@ -34,4 +34,4 @@ We wrote five Google Earth Engine scripts, each handling one data source. Key de
 - ERA5-Land band names conflict with reducer suffixes (e.g., `temperature_mean_mean`). We renamed bands to short codes (t1-t19) before reducing
 - CHIRPS percentile extraction required a separate script due to memory constraints
 
-All scripts are available in our [repository](https://github.com/ratarmla/beyond-borders/tree/main/scripts/gee).
+All scripts are available in our [repository](https://github.com/beyond-borders-org/crop-yield-prediction/tree/master/scripts/gee).
