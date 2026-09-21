@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Beyond Borders — Open Research for Africa</title>
+<meta name="description" content="Beyond Borders is an open research initiative working on problems that matter in African contexts. Code, data and methods are published so anyone can check, reuse and build on the work.">
+<meta name="author" content="Abdou-Raouf Atarmla">
+<link rel="canonical" href="https://beyond-borders-org.github.io/">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Crect%20width%3D%22100%22%20height%3D%22100%22%20rx%3D%2222%22%20fill%3D%22%23161043%22/%3E%3Cg%20transform%3D%22translate%2816%2015.5%29%20scale%280.66%29%22%3E%3Cpath%20d%3D%22M7.00%2052.00%20L57.00%2037.00%20L57.00%2043.10%20L62.00%2041.60%20L63.37%2040.57%20L64.79%2039.29%20L65.92%2038.05%20L67.08%2036.53%20L67.97%2035.11%20L68.83%2033.40%20L69.52%2031.62%20L70.03%2029.77%20L70.35%2027.89%20L70.49%2025.98%20L70.45%2024.07%20L70.25%2022.40%20L69.92%2020.76%20L69.36%2018.93%20L68.63%2017.16%20L67.73%2015.47%20L66.66%2013.88%20L65.29%2012.23%20L63.74%2010.73%20L62.03%209.42%20L60.19%208.30%20L58.24%207.39%20L56.20%206.71%20L54.10%206.25%20L52.43%206.05%20L51.00%206.00%20L7.00%206.00Z%20M57.00%2092.50%20L58.78%2092.43%20L60.85%2092.19%20L62.89%2091.77%20L64.61%2091.28%20L66.55%2090.54%20L68.17%2089.78%20L69.72%2088.90%20L71.45%2087.73%20L72.84%2086.61%20L74.36%2085.19%20L75.75%2083.63%20L76.83%2082.21%20L77.95%2080.46%20L78.79%2078.89%20L79.52%2077.25%20L80.21%2075.29%20L80.72%2073.27%20L81.03%2071.51%20L81.20%2069.74%20L81.24%2067.65%20L81.13%2065.87%20L80.84%2063.81%20L80.45%2062.07%20L79.83%2060.08%20L79.17%2058.42%20L78.24%2056.56%20L77.16%2054.78%20L76.12%2053.33%20L74.77%2051.75%20L73.50%2050.48%20L71.92%2049.13%20L70.47%2048.09%20L69.21%2047.30%20L67.64%2046.46%20L66.28%2045.85%20L64.89%2045.32%20L63.47%2044.88%20L61.73%2044.47%20L60.26%2044.22%20L58.51%2044.05%20L7.00%2059.50%20L7.00%2083.76%20L44.50%2067.40%20L45.34%2066.63%20L46.25%2066.00%20L47.36%2065.48%20L48.42%2065.17%20L49.26%2065.04%20L50.12%2065.00%20L50.98%2065.06%20L51.70%2065.20%20L52.53%2065.44%20L53.32%2065.77%20L54.06%2066.20%20L54.76%2066.70%20L55.39%2067.28%20L55.95%2067.93%20L56.37%2068.54%20L56.78%2069.29%20L57.10%2070.09%20L57.33%2070.92%20L57.46%2071.76%20L57.50%2072.50%20L57.40%2073.72%20L57.10%2074.91%20L56.56%2076.14%20L55.87%2077.16%20L55.04%2078.06%20L54.06%2078.80%20L52.87%2079.43%20L51.70%2079.80%20L50.25%2080.00%20L22.50%2080.60%20L7.13%2092.50Z%22%20fill%3D%22%23ffffff%22%20fill-rule%3D%22evenodd%22/%3E%3Cpath%20d%3D%22M64.8%2043.6%20Q79%2035.9%2095.2%2034.6%20Q81%2042.2%2064.8%2043.6%20Z%22%20fill%3D%22%23605ae5%22/%3E%3C/g%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f6fa">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#100d24">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Beyond Borders">
+<meta property="og:title" content="Beyond Borders — Open Research for Africa">
+<meta property="og:description" content="Beyond Borders is an open research initiative working on problems that matter in African contexts. Code, data and methods are published so anyone can check, reuse and build on the work.">
+<meta property="og:url" content="https://beyond-borders-org.github.io/">
+<meta property="og:image" content="https://beyond-borders-org.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Beyond Borders — Open Research Initiative">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Beyond Borders — Open Research for Africa">
+<meta name="twitter:description" content="An open research initiative working on problems that matter in African contexts. Code, data and methods, all published.">
+<meta name="twitter:image" content="https://beyond-borders-org.github.io/og-image.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "name": "Beyond Borders",
+  "alternateName": "Beyond Borders Open Research Initiative",
+  "url": "https://beyond-borders-org.github.io/",
+  "description": "Open research initiative working on problems that matter in African contexts, publishing its code, data and methods.",
+  "foundingDate": "2025",
+  "founder": {
+    "@type": "Person",
+    "name": "Abdou-Raouf Atarmla",
+    "url": "https://www.linkedin.com/in/abdou-raouf-atarmla/",
+  },
+  "sameAs": ["https://github.com/beyond-borders-org"]
+}
+</script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Google+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f6fa;
+    --bg-raised: #efedf5;
+    --ink: #161043;
+    --ink-soft: rgb(22 16 67 / 0.68);
+    --ink-faint: rgb(22 16 67 / 0.46);
+    --rule: rgb(22 16 67 / 0.12);
+    --accent: #605ae5;
+    --accent-soft: rgb(96 90 229 / 0.12);
+    --on-accent: #ffffff;
+    --band: #161043;
+    --on-dark: #f3f2f9;
+    --on-dark-soft: rgb(243 242 249 / 0.7);
+
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    box-sizing: border-box;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #100d24;
+      --bg-raised: #17133a;
+      --ink: #eceaf6;
+      --ink-soft: rgb(236 234 246 / 0.7);
+      --ink-faint: rgb(236 234 246 / 0.46);
+      --rule: rgb(236 234 246 / 0.14);
+      --accent: #8c87f0;
+      --accent-soft: rgb(140 135 240 / 0.16);
+      --on-accent: #100d24;
+      --band: #1c1650;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #100d24;
+    --bg-raised: #17133a;
+    --ink: #eceaf6;
+    --ink-soft: rgb(236 234 246 / 0.7);
+    --ink-faint: rgb(236 234 246 / 0.46);
+    --rule: rgb(236 234 246 / 0.14);
+    --accent: #8c87f0;
+    --accent-soft: rgb(140 135 240 / 0.16);
+    --on-accent: #100d24;
+    --band: #1c1650;
+  }
+
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  *, *::before, *::after { box-sizing: inherit; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Google Sans", system-ui, -apple-system, sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 {
+    font-family: "Newsreader", Georgia, serif;
+    font-weight: 500;
+    line-height: 1.12;
+    margin: 0;
+    text-wrap: pretty;
+  }
+  p { margin: 0; text-wrap: pretty; }
+  a { color: inherit; text-decoration: none; }
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  img, svg { display: block; max-width: 100%; }
+
+  .wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-inline: 28px;
+  }
+  @media (min-width: 860px) { .wrap { padding-inline: 56px; } }
+
+  /* ---------- mark ---------- */
+  .mark { flex-shrink: 0; }
+  .mark .b { fill: var(--ink); }
+  .mark .s { fill: var(--accent); }
+  .wordmark { font-family: "Google Sans", system-ui, sans-serif; font-size: 15px; letter-spacing: 0.2em; color: var(--ink); white-space: nowrap; }
+  .wordmark b { font-weight: 700; letter-spacing: 0.16em; }
+  .wordmark span { font-weight: 400; }
+
+  /* ---------- header ---------- */
+  header {
+    position: sticky;
+    top: env(safe-area-inset-top, 0px);
+    z-index: 20;
+    background: color-mix(in oklch, var(--bg) 88%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--rule);
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-block: 18px;
+    flex-wrap: wrap;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: "Newsreader", Georgia, serif;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+  .navlinks {
+    display: flex;
+    align-items: center;
+    gap: clamp(16px, 3vw, 32px);
+    flex-wrap: wrap;
+  }
+  .navlinks a {
+    font-size: 15px;
+    color: var(--ink-soft);
+    padding-block: 4px;
+    border-bottom: 1px solid transparent;
+    transition: color .15s ease, border-color .15s ease;
+  }
+  .navlinks a:hover { color: var(--ink); border-color: var(--rule); }
+
+  /* ---------- hero ---------- */
+  .hero {
+    padding-block: clamp(64px, 11vw, 128px) clamp(48px, 8vw, 88px);
+  }
+  .hero-inner {
+    max-width: 760px;
+    animation: rise .7s cubic-bezier(.2,.7,.2,1) both;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .hero-inner { animation: none; }
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .eyebrow {
+    font-size: 15px;
+    color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 18px;
+  }
+  .hero h1 {
+    font-size: clamp(34px, 5.4vw, 58px);
+    letter-spacing: -0.01em;
+  }
+  .hero p.lede {
+    margin-top: 24px;
+    max-width: 60ch;
+    font-size: clamp(17px, 1.6vw, 19px);
+    color: var(--ink-soft);
+  }
+  .cta-row {
+    display: flex;
+    gap: 14px;
+    margin-top: 36px;
+    flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 13px 24px;
+    font-size: 15.5px;
+    font-weight: 500;
+    border-radius: 7px;
+    transition: background .15s ease, color .15s ease, border-color .15s ease;
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: var(--on-accent);
+  }
+  .btn-primary:hover { background: color-mix(in oklch, var(--accent) 84%, black); }
+  .btn-ghost {
+    border: 1px solid var(--rule);
+    color: var(--ink);
+  }
+  .btn-ghost:hover { border-color: var(--ink-faint); background: var(--bg-raised); }
+
+  /* ---------- sections ---------- */
+  section.block { padding-block: clamp(48px, 6vw, 80px); }
+  .block-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: clamp(32px, 5vw, 48px);
+  }
+  .block-head h2 { font-size: clamp(24px, 2.6vw, 30px); }
+  .block-head a {
+    font-size: 15px;
+    color: var(--ink-soft);
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 2px;
+    transition: color .15s ease, border-color .15s ease;
+    white-space: nowrap;
+  }
+  .block-head a:hover { color: var(--accent); border-color: currentColor; }
+
+  /* ---------- research rows ---------- */
+  .research-item {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 32px;
+    padding-block: 32px;
+    border-top: 1px solid var(--rule);
+  }
+  .research-item:last-child { border-bottom: 1px solid var(--rule); }
+  @media (max-width: 760px) {
+    .research-item { grid-template-columns: 1fr; gap: 12px; }
+  }
+  .research-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .topic {
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+  .status {
+    font-size: 12.5px;
+    font-weight: 500;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 3px 10px;
+    border-radius: 100px;
+  }
+  .research-item a.title-link {
+    display: block;
+    font-family: "Newsreader", Georgia, serif;
+    font-size: clamp(19px, 2vw, 23px);
+    font-weight: 500;
+    line-height: 1.3;
+    max-width: 46ch;
+  }
+  .research-item a.title-link:hover { color: var(--accent); }
+  .research-item p {
+    margin-top: 10px;
+    max-width: 62ch;
+    color: var(--ink-soft);
+    font-size: 15.5px;
+  }
+
+
+  /* ---------- principles ---------- */
+  .principles {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px;
+    border-top: 1px solid var(--rule);
+    padding-top: 32px;
+  }
+  @media (max-width: 760px) { .principles { grid-template-columns: 1fr; gap: 28px; } }
+  .principle h3 { font-size: 21px; }
+  .principle p { margin-top: 10px; color: var(--ink-soft); font-size: 15.5px; max-width: 38ch; }
+  .research-item h3.title-link { max-width: none; }
+
+  /* ---------- closing band ---------- */
+  .closing {
+    position: relative;
+    background: var(--band);
+    color: var(--on-dark);
+    overflow: hidden;
+  }
+  .closing-mark .b { fill: var(--on-dark); opacity: .08; }
+  .closing-mark .s { fill: #605ae5; opacity: .9; }
+  .closing-mark {
+    position: absolute;
+    right: -40px;
+    bottom: -60px;
+    width: 340px;
+    height: 340px;
+    pointer-events: none;
+  }
+  .closing-inner {
+    position: relative;
+    padding-block: clamp(64px, 9vw, 104px);
+    max-width: 560px;
+  }
+  .closing h2 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    color: var(--on-dark);
+  }
+  .closing p {
+    margin-top: 16px;
+    color: var(--on-dark-soft);
+    font-size: 16.5px;
+    max-width: 46ch;
+  }
+  .closing .btn-primary {
+    margin-top: 28px;
+    background: var(--on-dark);
+    color: #161043;
+  }
+  .closing .btn-primary:hover { background: color-mix(in oklch, var(--on-dark) 84%, black); }
+
+  /* ---------- footer ---------- */
+  footer { padding-block: 32px; }
+  .footer-bottom {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-size: 13.5px;
+    color: var(--ink-faint);
+  }
+  .footer-brand { display: flex; align-items: center; gap: 10px; }
+  .footer-brand .wordmark { font-size: 12.5px; }
+  .footer-bottom a { color: var(--ink-soft); }
+  .footer-bottom a:hover { color: var(--ink); }
+  @media (max-width: 640px) {
+    .closing-mark { width: 170px; height: 170px; right: -46px; bottom: -46px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav wrap" aria-label="Primary">
+    <a href="./" class="brand">
+      <svg class="mark" width="30" height="29" viewBox="4 4 94 91" aria-hidden="true"><path class="b" d="M7.00 52.00 L57.00 37.00 L57.00 43.10 L62.00 41.60 L63.37 40.57 L64.79 39.29 L65.92 38.05 L67.08 36.53 L67.97 35.11 L68.83 33.40 L69.52 31.62 L70.03 29.77 L70.35 27.89 L70.49 25.98 L70.45 24.07 L70.25 22.40 L69.92 20.76 L69.36 18.93 L68.63 17.16 L67.73 15.47 L66.66 13.88 L65.29 12.23 L63.74 10.73 L62.03 9.42 L60.19 8.30 L58.24 7.39 L56.20 6.71 L54.10 6.25 L52.43 6.05 L51.00 6.00 L7.00 6.00Z M57.00 92.50 L58.78 92.43 L60.85 92.19 L62.89 91.77 L64.61 91.28 L66.55 90.54 L68.17 89.78 L69.72 88.90 L71.45 87.73 L72.84 86.61 L74.36 85.19 L75.75 83.63 L76.83 82.21 L77.95 80.46 L78.79 78.89 L79.52 77.25 L80.21 75.29 L80.72 73.27 L81.03 71.51 L81.20 69.74 L81.24 67.65 L81.13 65.87 L80.84 63.81 L80.45 62.07 L79.83 60.08 L79.17 58.42 L78.24 56.56 L77.16 54.78 L76.12 53.33 L74.77 51.75 L73.50 50.48 L71.92 49.13 L70.47 48.09 L69.21 47.30 L67.64 46.46 L66.28 45.85 L64.89 45.32 L63.47 44.88 L61.73 44.47 L60.26 44.22 L58.51 44.05 L7.00 59.50 L7.00 83.76 L44.50 67.40 L45.34 66.63 L46.25 66.00 L47.36 65.48 L48.42 65.17 L49.26 65.04 L50.12 65.00 L50.98 65.06 L51.70 65.20 L52.53 65.44 L53.32 65.77 L54.06 66.20 L54.76 66.70 L55.39 67.28 L55.95 67.93 L56.37 68.54 L56.78 69.29 L57.10 70.09 L57.33 70.92 L57.46 71.76 L57.50 72.50 L57.40 73.72 L57.10 74.91 L56.56 76.14 L55.87 77.16 L55.04 78.06 L54.06 78.80 L52.87 79.43 L51.70 79.80 L50.25 80.00 L22.50 80.60 L7.13 92.50Z" fill-rule="evenodd"/><path class="s" d="M64.8 43.6 Q79 35.9 95.2 34.6 Q81 42.2 64.8 43.6 Z"/></svg>
+      <span class="wordmark"><span>BEYOND</span> <b>BORDERS</b></span>
+    </a>
+    <div class="navlinks">
+      <a href="#projects">Projects</a>
+      <a href="#open">How we work</a>
+      <a href="https://github.com/beyond-borders-org">GitHub</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero wrap">
+    <div class="hero-inner">
+      <p class="eyebrow">Open Research Initiative</p>
+      <h1>Research questions that start where most datasets end</h1>
+      <p class="lede">Beyond Borders works on problems that matter in African contexts, from children&rsquo;s health to the languages people actually speak. Everything we produce is public: the code, the data we are allowed to share, and the reasoning behind each result.</p>
+      <div class="cta-row">
+        <a href="#projects" class="btn btn-primary">See the projects</a>
+        <a href="https://github.com/beyond-borders-org" class="btn btn-ghost">Browse the code</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block wrap" id="projects" aria-labelledby="projects-heading">
+    <div class="block-head">
+      <h2 id="projects-heading">Projects</h2>
+    </div>
+
+    <article class="research-item">
+      <div class="research-meta">
+        <span class="topic">Health</span>
+        <span class="status">Ongoing</span>
+      </div>
+      <div>
+        <h3 class="title-link">Counting a child&rsquo;s breaths, precisely enough to matter</h3>
+        <p>In rural clinics, suspected pneumonia in a child is often assessed by counting breaths by eye for a full minute. NAFS measures breathing rate automatically on an ordinary smartphone, fully offline. It won a national hackathon, and a field pilot is underway in Morocco.</p>
+      </div>
+    </article>
+
+    <article class="research-item">
+      <div class="research-meta">
+        <span class="topic">Speech and language</span>
+        <span class="status">In progress</span>
+      </div>
+      <div>
+        <h3 class="title-link">What does a voice know that the written word forgets?</h3>
+        <p>Many African languages are tonal: the same letters can mean different words depending on pitch. Written text often drops the marks that carry that difference. We are studying how much of it speech can give back.</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="block wrap" id="open" aria-labelledby="open-heading">
+    <div class="block-head">
+      <h2 id="open-heading">How we work</h2>
+    </div>
+    <div class="principles">
+      <div class="principle">
+        <h3>Open by default</h3>
+        <p>Code is released under the MIT license. Data and trained models are published whenever their licenses and the people behind them allow it.</p>
+      </div>
+      <div class="principle">
+        <h3>Every number traceable</h3>
+        <p>Each result we report comes with the notebook that produced it, so anyone can rerun it and reach the same figure.</p>
+      </div>
+      <div class="principle">
+        <h3>Honest about limits</h3>
+        <p>We report what did not work alongside what did. A negative result is still a result.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing">
+    <svg class="closing-mark mark" width="360" height="349" viewBox="4 4 94 91" aria-hidden="true"><path class="b" d="M7.00 52.00 L57.00 37.00 L57.00 43.10 L62.00 41.60 L63.37 40.57 L64.79 39.29 L65.92 38.05 L67.08 36.53 L67.97 35.11 L68.83 33.40 L69.52 31.62 L70.03 29.77 L70.35 27.89 L70.49 25.98 L70.45 24.07 L70.25 22.40 L69.92 20.76 L69.36 18.93 L68.63 17.16 L67.73 15.47 L66.66 13.88 L65.29 12.23 L63.74 10.73 L62.03 9.42 L60.19 8.30 L58.24 7.39 L56.20 6.71 L54.10 6.25 L52.43 6.05 L51.00 6.00 L7.00 6.00Z M57.00 92.50 L58.78 92.43 L60.85 92.19 L62.89 91.77 L64.61 91.28 L66.55 90.54 L68.17 89.78 L69.72 88.90 L71.45 87.73 L72.84 86.61 L74.36 85.19 L75.75 83.63 L76.83 82.21 L77.95 80.46 L78.79 78.89 L79.52 77.25 L80.21 75.29 L80.72 73.27 L81.03 71.51 L81.20 69.74 L81.24 67.65 L81.13 65.87 L80.84 63.81 L80.45 62.07 L79.83 60.08 L79.17 58.42 L78.24 56.56 L77.16 54.78 L76.12 53.33 L74.77 51.75 L73.50 50.48 L71.92 49.13 L70.47 48.09 L69.21 47.30 L67.64 46.46 L66.28 45.85 L64.89 45.32 L63.47 44.88 L61.73 44.47 L60.26 44.22 L58.51 44.05 L7.00 59.50 L7.00 83.76 L44.50 67.40 L45.34 66.63 L46.25 66.00 L47.36 65.48 L48.42 65.17 L49.26 65.04 L50.12 65.00 L50.98 65.06 L51.70 65.20 L52.53 65.44 L53.32 65.77 L54.06 66.20 L54.76 66.70 L55.39 67.28 L55.95 67.93 L56.37 68.54 L56.78 69.29 L57.10 70.09 L57.33 70.92 L57.46 71.76 L57.50 72.50 L57.40 73.72 L57.10 74.91 L56.56 76.14 L55.87 77.16 L55.04 78.06 L54.06 78.80 L52.87 79.43 L51.70 79.80 L50.25 80.00 L22.50 80.60 L7.13 92.50Z" fill-rule="evenodd"/><path class="s" d="M64.8 43.6 Q79 35.9 95.2 34.6 Q81 42.2 64.8 43.6 Z"/></svg>
+    <div class="wrap">
+      <div class="closing-inner">
+        <h2>Work with us</h2>
+        <p>Researchers, engineers, clinicians and speakers of the languages we study are all welcome. Tell us what you are working on.</p>
+        <a class="btn btn-primary" href="mailto:contact@beyond-borders.africa">Write to us</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <div class="footer-bottom">
+    <div class="footer-brand">
+      <svg class="mark" width="24" height="23" viewBox="4 4 94 91" aria-hidden="true"><path class="b" d="M7.00 52.00 L57.00 37.00 L57.00 43.10 L62.00 41.60 L63.37 40.57 L64.79 39.29 L65.92 38.05 L67.08 36.53 L67.97 35.11 L68.83 33.40 L69.52 31.62 L70.03 29.77 L70.35 27.89 L70.49 25.98 L70.45 24.07 L70.25 22.40 L69.92 20.76 L69.36 18.93 L68.63 17.16 L67.73 15.47 L66.66 13.88 L65.29 12.23 L63.74 10.73 L62.03 9.42 L60.19 8.30 L58.24 7.39 L56.20 6.71 L54.10 6.25 L52.43 6.05 L51.00 6.00 L7.00 6.00Z M57.00 92.50 L58.78 92.43 L60.85 92.19 L62.89 91.77 L64.61 91.28 L66.55 90.54 L68.17 89.78 L69.72 88.90 L71.45 87.73 L72.84 86.61 L74.36 85.19 L75.75 83.63 L76.83 82.21 L77.95 80.46 L78.79 78.89 L79.52 77.25 L80.21 75.29 L80.72 73.27 L81.03 71.51 L81.20 69.74 L81.24 67.65 L81.13 65.87 L80.84 63.81 L80.45 62.07 L79.83 60.08 L79.17 58.42 L78.24 56.56 L77.16 54.78 L76.12 53.33 L74.77 51.75 L73.50 50.48 L71.92 49.13 L70.47 48.09 L69.21 47.30 L67.64 46.46 L66.28 45.85 L64.89 45.32 L63.47 44.88 L61.73 44.47 L60.26 44.22 L58.51 44.05 L7.00 59.50 L7.00 83.76 L44.50 67.40 L45.34 66.63 L46.25 66.00 L47.36 65.48 L48.42 65.17 L49.26 65.04 L50.12 65.00 L50.98 65.06 L51.70 65.20 L52.53 65.44 L53.32 65.77 L54.06 66.20 L54.76 66.70 L55.39 67.28 L55.95 67.93 L56.37 68.54 L56.78 69.29 L57.10 70.09 L57.33 70.92 L57.46 71.76 L57.50 72.50 L57.40 73.72 L57.10 74.91 L56.56 76.14 L55.87 77.16 L55.04 78.06 L54.06 78.80 L52.87 79.43 L51.70 79.80 L50.25 80.00 L22.50 80.60 L7.13 92.50Z" fill-rule="evenodd"/><path class="s" d="M64.8 43.6 Q79 35.9 95.2 34.6 Q81 42.2 64.8 43.6 Z"/></svg>
+      <span class="wordmark"><span>BEYOND</span> <b>BORDERS</b></span>
+    </div>
+    <span>Open research initiative, founded 2025. Code under MIT.</span>
+    <a href="https://github.com/beyond-borders-org">GitHub</a>
+  </div>
+</footer>
+
+</body>
+</html>
